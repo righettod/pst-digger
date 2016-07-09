@@ -62,7 +62,7 @@ public class EntryPoint {
 			// Dig the file
 			LOG.info("Start digging on file '{}' ...", this.pst);
 			int count = new Digger(this.caseSensitive, this.searchedKeywords, this.pst, this.output, this.dumpAttachments).dig();
-			LOG.info("Digging finished, {} interesting mails found, see {} for details !", count, this.output.getAbsolutePath());
+			LOG.info("Digging finished, {} interesting mails found, see folder '{}' for details !", count, this.output.getAbsolutePath());
 		}
 		catch (CmdLineException cmde) {
 			LOG.error("Bad syntax !");
