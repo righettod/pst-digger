@@ -29,7 +29,7 @@ The program need a JRE <= 1.8
 
 # Usage
 
-Use the following command to display the available parameters:
+Use the following command to display the call parameters:
 
 `java -jar pst-digger.jar`
 
@@ -38,7 +38,7 @@ Usage:
  -a      : Dump linked attachments for interesting mails found (default: false)
  -f FILE : PST file to analyze (absolute or relative path)
  -i      : Perform search of terms in case sensitive way (default: false)
- -k VAL  : Keyword to search in mail (subject/body), separated by a pipe '|'
+ -k VAL  : Keywords to search in mail (subject/body), separated by a pipe '|'
  -o FILE : Folder in which store copy of interesting mails containing the keywords specified (default: out)
 
 Example using required parameters:
@@ -47,6 +47,10 @@ java -jar pst-digger.jar -f FILE -k VAL
 Example using all parameters:
 java -jar pst-digger.jar -a -f FILE -i -k VAL -o FILE
 ```
+
+Real call example:
+
+`java -jar pst-digger.jar -a -f "C:\Users\xxx\my.pst" -i -k "login|password" -o TEST01`
 
 # Thanks
 

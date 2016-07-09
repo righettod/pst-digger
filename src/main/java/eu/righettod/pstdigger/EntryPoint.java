@@ -20,7 +20,7 @@ public class EntryPoint {
 	@Option(name = "-i", usage = "Perform search of terms in case sensitive way", required = false)
 	private boolean caseSensitive = false;
 
-	@Option(name = "-k", usage = "Keyword to search in mail (subject/body), separated by a pipe '|'", required = true)
+	@Option(name = "-k", usage = "Keywords to search in mail (subject/body), separated by a pipe '|'", required = true)
 	private String searchedKeywords = null;
 
 	@Option(name = "-f", usage = "PST file to analyze (absolute or relative path)", required = true)
