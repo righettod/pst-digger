@@ -11,6 +11,10 @@ Use the following Maven command line:
 
 The program will be build in the folder **target/pst-digger.jar**
 
+# CloudBees build status
+
+[![Build Status](https://righettod.ci.cloudbees.com/buildStatus/icon?job=PSTDigger)](https://righettod.ci.cloudbees.com/job/PSTDigger/)
+
 # Running requirement
 
 The program need a JRE <= 1.8
