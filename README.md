@@ -7,7 +7,11 @@ This project is implemented using Maven (v3.x) structure.
 
 # Build the program
 
-Use the following Maven command line:
+The last version (**0.9.1**) of the artifact **java-libpst** is not yet into Maven public repository then you must install the library prior to program build, this using the following command line:
+
+`mvn install:install-file -Dfile=ext\java-libpst-0.9.1.jar -DgroupId=com.pff -DartifactId=java-libpst -Dversion=0.9.1 -Dpackaging=jar`
+
+And then use the following Maven command line to build the program jar file:
 
 `mvn clean package`
 

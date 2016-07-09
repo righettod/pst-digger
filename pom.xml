@@ -4,13 +4,10 @@
 	<artifactId>pst-digger</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<dependencies>
-		<!-- v0.9.1 is not published yet in Maven repo :( -->
 		<dependency>
 			<groupId>com.pff</groupId>
 			<artifactId>java-libpst</artifactId>
 			<version>0.9.1</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/ext/java-libpst-0.9.1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>args4j</groupId>
