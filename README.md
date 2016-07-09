@@ -3,6 +3,8 @@
 Program to analyze mails stored into a Microsoft Outlook PST file and find one based on search keywords.
 There no need of Microsoft Outlook on the target computer.
 
+This project is implemented using Maven (v3.x) structure.
+
 # Build the program
 
 Use the following Maven command line:

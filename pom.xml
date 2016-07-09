@@ -78,4 +78,23 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	<organization>
+		<name>Dominique Righetto</name>
+		<url>http://www.righettod.eu</url>
+	</organization>
+	<scm>
+		<url>https://github.com/righettod/pst-digger</url>
+		<connection>scm:git:https://github.com/righettod/pst-digger.git</connection>
+	</scm>
+	<ciManagement>
+		<system>CloudBees</system>
+		<url>https://righettod.ci.cloudbees.com/job/HibernateValidatorSecurityContribs/</url>
+	</ciManagement>
+	<name>pst-digger</name>
+	<url>https://github.com/righettod/pst-digger</url>
+	<description>Program to analyze mails stored into a Microsoft Outlook PST file and find one based on search keywords.</description>
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/righettod/pst-digger/issues</url>
+	</issueManagement>
 </project>
