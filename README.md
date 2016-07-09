@@ -15,6 +15,8 @@ The program will be build in the folder **target/pst-digger.jar**
 
 [![Build Status](https://righettod.ci.cloudbees.com/buildStatus/icon?job=PSTDigger)](https://righettod.ci.cloudbees.com/job/PSTDigger/)
 
+[Download](https://righettod.ci.cloudbees.com/job/PSTDigger/lastSuccessfulBuild/artifact/target/pst-digger.jar) last build.
+
 # Running requirement
 
 The program need a JRE <= 1.8
