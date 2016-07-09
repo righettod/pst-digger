@@ -9,7 +9,7 @@ Use the following Maven command line:
 
 `mvn clean package`
 
-The program will be build in the folder **target/pst-digger.jar**
+The program will be build as the file **target/pst-digger.jar**
 
 # CloudBees build status
 
