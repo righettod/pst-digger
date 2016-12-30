@@ -19,7 +19,7 @@ The program will be build as the file **target/pst-digger.jar**
 
 # Running requirement
 
-The program need a JRE <= 1.8
+The program need a JRE 1.8
 
 # Usage
 
