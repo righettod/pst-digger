@@ -13,11 +13,9 @@ Use the following Maven command line to build the program jar file:
 
 The program will be build as the file **target/pst-digger.jar**
 
-# CloudBees build status
+# Travis-CI build status
 
-[![Build Status](https://righettod.ci.cloudbees.com/buildStatus/icon?job=PSTDigger)](https://righettod.ci.cloudbees.com/job/PSTDigger/)
-
-[Download](https://righettod.ci.cloudbees.com/job/PSTDigger/lastSuccessfulBuild/artifact/target/pst-digger.jar) last build.
+[![Build Status](https://travis-ci.org/righettod/pst-digger.svg?branch=master)](https://travis-ci.org/righettod/pst-digger)
 
 # Running requirement
 
