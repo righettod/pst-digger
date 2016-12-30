@@ -1,0 +1,9 @@
+language: java
+jdk:
+  - oraclejdk8
+mvn clean package
+notifications:
+  email:
+    recipients:
+      - dominique.righetto@gmail.com
+    on_failure: always
