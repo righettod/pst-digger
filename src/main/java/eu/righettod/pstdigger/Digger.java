@@ -47,7 +47,7 @@ public class Digger {
 		if ((pst == null) || !pst.exists() || !pst.isFile() || !pst.canRead()) {
 			throw new IllegalArgumentException("The PST file must be a valid readable file !");
 		}
-		if ((output == null) || !output.exists() || !output.isDirectory() || !pst.canWrite()) {
+		if ((output == null) || !output.exists() || !output.isDirectory() || !output.canWrite()) {
 			throw new IllegalArgumentException("The output directory must be a valid folder !");
 		}
 		if ((searchedKeywords == null) || (searchedKeywords.trim().length() == 0)) {
