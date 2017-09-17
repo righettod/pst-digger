@@ -8,3 +8,5 @@ notifications:
     recipients:
       - dominique.righetto@gmail.com
     on_failure: always
+addons:
+  srcclr: true
