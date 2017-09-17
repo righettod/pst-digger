@@ -10,3 +10,10 @@ notifications:
     on_failure: always
 addons:
   srcclr: true
+  coverity_scan:
+    project:
+      name: "righettod/pst-digger"
+      description: "Trigger via TravisCI"
+    notification_email: dominique.righetto@gmail.com
+    build_command: mvn clean package
+    branch_pattern: master  
