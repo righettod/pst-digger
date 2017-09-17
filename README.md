@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/righettod/pst-digger.svg?branch=master)](https://travis-ci.org/righettod/pst-digger)
+[![Coverity Status](https://scan.coverity.com/projects/13791/badge.svg)](https://scan.coverity.com/projects/righettod-pst-digger)
+
 # Description
 
 Program to analyze mails stored into a Microsoft Outlook PST file and find one based on search keywords.
@@ -12,10 +15,6 @@ Use the following Maven command line to build the program jar file:
 `mvn clean package`
 
 The program will be build as the file **target/pst-digger.jar**
-
-# Travis-CI build status
-
-[![Build Status](https://travis-ci.org/righettod/pst-digger.svg?branch=master)](https://travis-ci.org/righettod/pst-digger)
 
 # Running requirement
 
