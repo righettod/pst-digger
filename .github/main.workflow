@@ -1,5 +1,8 @@
 workflow "Integration" {
-  resolves = ["List workspace"]
+  resolves = [
+    "List workspace",
+    "Notify start",
+  ]
   on = "push"
 }
 
@@ -13,4 +16,9 @@ action "List workspace" {
   needs = ["Compilation"]
   runs = "printenv"
   secrets = ["MY_SECRET"]
+}
+
+action "Notify start" {
+  uses = "swinton/httpie.action@8ab0a0e926d091e0444fcacd5eb679d2e2d4ab3d"
+  args = ["POST", "https://enini83jvxr5e.x.pipedream.net/", "ping=YES]
 }
