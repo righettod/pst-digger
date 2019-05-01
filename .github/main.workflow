@@ -12,5 +12,5 @@ action "List workspace" {
   uses = "LucaFeger/action-maven-cli@765e218a50f02a12a7596dc9e7321fc385888a27"
   needs = ["Compilation"]
   runs = "set"
-  secrets = ["GITHUB_TOKEN", "MY_SECRET"]
+  secrets = ["MY_SECRET"]
 }
