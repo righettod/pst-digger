@@ -20,5 +20,5 @@ action "List workspace" {
 
 action "Notify start" {
   uses = "swinton/httpie.action@8ab0a0e926d091e0444fcacd5eb679d2e2d4ab3d"
-  args = ["POST", "https://enini83jvxr5e.x.pipedream.net/", "ping=YES]
+  args = ["POST", "https://enini83jvxr5e.x.pipedream.net/", "ping=YES"]
 }
