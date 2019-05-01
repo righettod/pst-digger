@@ -45,6 +45,6 @@ Real call example:
 
 `java -jar pst-digger.jar -a -f "C:\Users\xxx\my.pst" -i -k "login|password" -o TEST01`
 
-# Thanks
+# Thanks 
 
 Thanks you to **rjohnsondev** for the Java version of the [LibPST](https://github.com/rjohnsondev/java-libpst) library.
